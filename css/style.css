@@ -2914,8 +2914,9 @@ input[type="button"].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
+  background: #dc4f72;
   background-size: 100% 100%;
+  color: white;
 }
 
 @media (max-width: 575.98px) {
@@ -8404,7 +8405,7 @@ nav ul li a:hover {
     width: 34px;
     height: 34px;
     display: inline-block;
-    background: var(--primary);
+    background: #dc4f72;
     border-radius: 4px;
     text-align: center;
   }
@@ -8421,7 +8422,15 @@ nav ul li a:hover {
     padding: 0rem 0rem !important;
   }
 }
-
+@media only screen and (max-width: 991px) {
+  .navbar-toggler-icon.fa{
+      line-height: 1.2em;
+      color: #fff;
+      line-height: 34px;
+      background-color: #dc4f72;
+      border-radius: 5px;
+  }
+}
 @media only screen and (max-width: 767px) {
 
   #site-footer .copyright,
