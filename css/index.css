@@ -392,6 +392,9 @@ header .theme-button {
 .dark.w3l-products .products-content h3{
   color: white;
 }
+.dark.w3l-products .header-section h3{
+  color: white;
+}
 .dark .testimonials {
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/b2.jpg);
   background-size: cover;
